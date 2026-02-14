@@ -1,0 +1,37 @@
+/* ==========================================
+   CSS Variables - Design Tokens
+   ========================================== */
+
+:root {
+  /* Layout */
+  --radius: 18px;
+  --max-width: 1080px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+
+  /* Light Theme Colors */
+  --bg: #ffffff;
+  --text: #0b0b0f;
+  --muted: #5b6270;
+  --line: rgba(11, 11, 15, .10);
+  --soft: rgba(11, 11, 15, .04);
+  --accent: #2563eb;
+  --accent-light: rgba(37, 99, 235, .12);
+  --success: #10b981;
+  --gradient-start: rgba(37, 99, 235, .08);
+  --gradient-end: rgba(16, 185, 129, .08);
+}
+
+/* Dark Theme Colors */
+[data-theme="dark"] {
+  --bg: #0b0c10;
+  --text: #f7f8fb;
+  --muted: rgba(247, 248, 251, .66);
+  --line: rgba(247, 248, 251, .14);
+  --soft: rgba(247, 248, 251, .06);
+  --accent: #3b82f6;
+  --accent-light: rgba(59, 130, 246, .15);
+  --success: #34d399;
+  --gradient-start: rgba(59, 130, 246, .10);
+  --gradient-end: rgba(52, 211, 153, .10);
+}
